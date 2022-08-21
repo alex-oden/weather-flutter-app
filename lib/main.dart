@@ -29,6 +29,32 @@ class MyApp extends StatelessWidget {
   }
 }
 
+/**
+ * This is the welcoming message for the application
+ */
+String greet() {
+  // String is data type
+  var message = "Hi Alex";
+  return message;
+}
+
+/// The function should take number
+/// and should add currency sign with number
+/// for example if I pass 45
+/// it should return me 45$
+
+//integer 1
+// double 1.1
+// String "1"
+
+/**
+ * Fetch the current weather of the location
+ */
+int fetchWeather() {
+  var temp = 32;
+  return temp;
+}
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
