@@ -43,6 +43,14 @@ String greet() {
 /// for example if I pass 45
 /// it should return me 45$
 
+
+num sign(int currencyNumber) {
+  var message = currencyNumber + "$" ;
+  return message;
+}
+
+
+
 //integer 1
 // double 1.1
 // String "1"
